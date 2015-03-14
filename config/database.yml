@@ -13,8 +13,8 @@ development:
   adapter: postgresql
   database: devdb
   pool: 5
-  username: milchmilch
-  password: milchmilch
+  username: dennisczombera
+  password: dennisczombera
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -23,8 +23,8 @@ test:
   adapter: postgresql
   database: testdb
   pool: 5
-  username: milchmilch
-  password: milchmilch
+  username: dennisczombera
+  password: dennisczombera
 
 production:
   <<: *default
