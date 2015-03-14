@@ -5,13 +5,13 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
   pool: 5
   timeout: 5000
 
 development:
   adapter: postgresql
-  database: sandbox
+  database: devdb
   pool: 5
   username: milchmilch
   password: milchmilch
@@ -28,4 +28,4 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: postgresql
