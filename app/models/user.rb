@@ -6,7 +6,9 @@ class User < ActiveRecord::Base
 	validates :email, 	presence: true, length: { maximum: 255 },
 						format: { with: VALID_EMAIL_REGEX },
 						uniqueness: { case_sensitive: false }
-	validates :password, length: { minimum: 6 }
+  # Allow_blank makes it easier for users who want to update their profile.
+  # Remember: has_secure_password enforces presence validations upon object creation for new users
+	validates :password, length: { minimum: 6 }, allow_blank: true
 	has_secure_password
 
   # Returns the hash digest of the given string
