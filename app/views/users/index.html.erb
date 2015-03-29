@@ -1,0 +1,10 @@
+<% provide(:full_title, 'List of all Jedis') %>
+<h1>All Jedis in on single place.</h1>
+
+<ul class="users">
+    <%= render @users %>
+</ul>
+
+<div id="infinite-scrolling">
+    <%= will_paginate %>
+</div>
