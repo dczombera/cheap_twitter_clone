@@ -21,3 +21,4 @@
 
 # Ignore files created by RubyMine
 /.idea
+/.idea/workspace.xml
