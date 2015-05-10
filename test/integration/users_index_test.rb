@@ -32,7 +32,6 @@ class UsersIndexTest < ActionDispatch::IntegrationTest
     log_in_as(@admin)
     get users_path
     assert_select "a[href=?]", user_path(@non_admin), count: 0
-    assert_select "a[href=?]", user_path(@admin), count: 1
   end
 
   test "show for non-activated user" do
