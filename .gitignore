@@ -21,3 +21,6 @@
 
 # Ignore files created by RubyMine
 /.idea
+
+# Ignore uploaded test images
+/public/uploads
