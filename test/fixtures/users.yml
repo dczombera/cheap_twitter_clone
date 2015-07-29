@@ -14,6 +14,13 @@ joker:
   activated: true
   activated_at: <%= Time.zone.now %>
 
+riddler:
+  name: The Riddler
+  email: ihaveapuzzle@foryou.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
 <% 30.times do |n| %>
 user_<%= n %>:
   name:   <%= "User #{n}" %>
