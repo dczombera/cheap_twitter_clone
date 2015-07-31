@@ -1,0 +1,15 @@
+one:
+  follower: bruce
+  followed: joker
+
+two:
+  follower: bruce
+  followed: riddler
+
+three:
+  follower: joker
+  followed: bruce
+
+four:
+  follower: riddler
+  followed: bruce
