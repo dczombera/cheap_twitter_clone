@@ -1,6 +1,9 @@
-# Ruby on Rails Tutorial: sample application
+# Cheap Twitter Clone"
 
-This is the sample application for the
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+Sample App based on Michael Hartl's [*RoR Tutorial*](http://railstutorial.org/)
+
+
+*************
+Current status of the web app:** [deployment on heroku](https://mysterious-taiga-4149.herokuapp.com/)
+
+*************
